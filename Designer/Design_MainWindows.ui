@@ -14,16 +14,6 @@
    <string>SSH / RDP Connector</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTreeView" name="treeView">
-    <property name="geometry">
-     <rect>
-      <x>5</x>
-      <y>10</y>
-      <width>341</width>
-      <height>571</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_Connect">
     <property name="geometry">
      <rect>
@@ -487,6 +477,34 @@
     <property name="text">
      <string>Show Cmd Output</string>
     </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSetDefaultTreeview">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>161</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Default TreeView</string>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>341</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string notr="true">Connections</string>
+     </property>
+    </column>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
